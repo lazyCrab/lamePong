@@ -2,11 +2,11 @@
 #define PADDLE_H
 
 #include "ofMain.h"
-#include "ofGraphics.h"
 
 class Paddle
 {
     public:
+        Paddle();
         Paddle(ofRectangle rect);
         virtual ~Paddle();
 
@@ -18,11 +18,11 @@ class Paddle
         bool collide(Paddle p);
         bool collide(ofRectangle rect);
 
-        void update();
+        virtual void update();
         void draw();
     private:
         ofRectangle r;
-        const int SPEED = 5;
+        int SPEED = 5;
 };
 
 #endif

@@ -1,5 +1,10 @@
 #include "Paddle.h"
 
+Paddle::Paddle()
+{
+    r = ofRectangle(0, 0, 0, 0);
+}
+
 Paddle::Paddle(ofRectangle rect)
 {
     r = rect;
