@@ -11,6 +11,8 @@ class Paddle
         virtual ~Paddle();
 
         ofRectangle getRect() { return r; }
+        void setSpeed(int speed) { SPEED = speed; }
+        int getSpeed() { return SPEED; }
 
         void moveX(float dX);
 

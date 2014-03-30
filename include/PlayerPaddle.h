@@ -10,7 +10,9 @@ class PlayerPaddle : public Paddle, public KeyListener
         PlayerPaddle();
         PlayerPaddle(ofRectangle rect);
         virtual ~PlayerPaddle();
-    protected:
+        void keyDown(string code);
+        void keyUp(string code);
+        void update();
     private:
 };
 

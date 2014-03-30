@@ -2,6 +2,8 @@
 #define PONG_H
 
 #include "ofMain.h"
+#include "PlayerPaddle.h"
+#include "KeyManager.h"
 
 class Pong : public ofBaseApp
 {
@@ -19,6 +21,10 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
+
+private:
+    PlayerPaddle *pp;
+    KeyManager km;
 };
 
 #endif
