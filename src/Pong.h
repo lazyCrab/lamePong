@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PONG_H
+#define PONG_H
 
 #include "ofMain.h"
 
@@ -19,3 +20,5 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
 };
+
+#endif
