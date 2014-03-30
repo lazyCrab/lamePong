@@ -3,6 +3,9 @@
 
 #include "Paddle.h"
 #include "KeyListener.h"
+#include <string>
+
+using namespace std;
 
 class PlayerPaddle : public Paddle, public KeyListener
 {
@@ -10,10 +13,15 @@ class PlayerPaddle : public Paddle, public KeyListener
         PlayerPaddle();
         PlayerPaddle(ofRectangle rect);
         virtual ~PlayerPaddle();
+
+        void setID(char id) { playerID = id; }
+
         void keyDown(string code);
         void keyUp(string code);
+
         void update();
     private:
+        string playerID;
 };
 
 #endif

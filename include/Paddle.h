@@ -24,7 +24,7 @@ class Paddle
         void draw();
     private:
         ofRectangle r;
-        int SPEED = 5;
+        int SPEED;
 };
 
 #endif

@@ -2,11 +2,19 @@
 
 void Pong::setup()
 {
-    pp = new PlayerPaddle(ofRectangle(10, 10, 100, 20));
-    km.addCode('a', "PLAYER_LEFT");
-    km.addCode('d', "PLAYER_RIGHT");
-    km.addListener("PLAYER_LEFT", pp);
-    km.addListener("PLAYER_RIGHT", pp);
+    pp1 = new PlayerPaddle(ofRectangle(10, 10, 100, 20));
+    pp1->setID('1');
+    km.addCode('a', "PLAYER1_LEFT");
+    km.addCode('d', "PLAYER1_RIGHT");
+    km.addListener("PLAYER1_LEFT", pp1);
+    km.addListener("PLAYER1_RIGHT", pp1);
+
+    pp2 = new PlayerPaddle(ofRectangle(10, 300, 100, 20));
+    pp2->setID('2');
+    km.addCode('k', "PLAYER2_LEFT");
+    km.addCode(';', "PLAYER2_RIGHT");
+    km.addListener("PLAYER2_LEFT", pp2);
+    km.addListener("PLAYER2_RIGHT", pp2);
 }
 
 void Pong::update()
@@ -16,7 +24,8 @@ void Pong::update()
 
 void Pong::draw()
 {
-    pp->draw();
+    pp1->draw();
+    pp2->draw();
 }
 
 void Pong::keyPressed(int key)

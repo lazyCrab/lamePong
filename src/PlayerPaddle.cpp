@@ -3,11 +3,13 @@
 PlayerPaddle::PlayerPaddle()
 {
     setSpeed(5);      //TODO: Change this
+    playerID = "";
 }
 
 PlayerPaddle::PlayerPaddle(ofRectangle rect) : Paddle(rect)
 {
     setSpeed(5);      //TODO: Change this
+    playerID = "";
 }
 
 PlayerPaddle::~PlayerPaddle()
@@ -16,9 +18,9 @@ PlayerPaddle::~PlayerPaddle()
 
 void PlayerPaddle::keyDown(string code)
 {
-    if(code == "PLAYER_LEFT")
+    if(code == "PLAYER" + playerID + "_LEFT")
         moveX(-getSpeed());
-    else if(code == "PLAYER_RIGHT")
+    else if(code == "PLAYER" + playerID + "_RIGHT")
         moveX(getSpeed());
 }
 

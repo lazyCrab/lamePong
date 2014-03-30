@@ -23,7 +23,8 @@ public:
     void gotMessage(ofMessage msg);
 
 private:
-    PlayerPaddle *pp;
+    PlayerPaddle *pp1;
+    PlayerPaddle *pp2;
     KeyManager km;
 };
 
