@@ -4,6 +4,7 @@
 #include "ofMain.h"
 #include "PlayerPaddle.h"
 #include "KeyManager.h"
+#include "Ball.h"
 
 class Pong : public ofBaseApp
 {
@@ -21,10 +22,12 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
-
 private:
     PlayerPaddle *pp1;
     PlayerPaddle *pp2;
+    int sp1 = 0, sp2 = 0;
+    ofTrueTypeFont font;
+    Ball b;
     KeyManager km;
 };
 

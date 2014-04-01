@@ -308,7 +308,8 @@ obj/linux64/Debug/src/Paddle.o: src/Paddle.cpp include/Paddle.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/video/ofVideoPlayer.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/video/ofGstVideoPlayer.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofCamera.h \
- ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h
+ ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h \
+ include/Ball.h
 
 include/Paddle.h:
 
@@ -963,3 +964,5 @@ include/Paddle.h:
 ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofCamera.h:
 
 ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h:
+
+include/Ball.h:

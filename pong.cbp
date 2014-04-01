@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
@@ -27,16 +27,26 @@
 				<Option projectLinkerOptionsRelation="2" />
 			</Target>
 		</Build>
+		<Unit filename=".gitigonre" />
 		<Unit filename="config.make">
 			<Option virtualFolder="build config" />
 		</Unit>
+		<Unit filename="include/Ball.h" />
+		<Unit filename="include/KeyListener.h" />
+		<Unit filename="include/KeyManager.h" />
+		<Unit filename="include/Paddle.h" />
+		<Unit filename="include/PlayerPaddle.h" />
+		<Unit filename="src/Ball.cpp" />
+		<Unit filename="src/KeyManager.cpp" />
+		<Unit filename="src/Paddle.cpp" />
+		<Unit filename="src/PlayerPaddle.cpp" />
+		<Unit filename="src/Pong.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Pong.h">
+			<Option virtualFolder="src/" />
+		</Unit>
 		<Unit filename="src/main.cpp">
-			<Option virtualFolder="src/" />
-		</Unit>
-		<Unit filename="src/testApp.cpp">
-			<Option virtualFolder="src/" />
-		</Unit>
-		<Unit filename="src/testApp.h">
 			<Option virtualFolder="src/" />
 		</Unit>
 		<Extensions>

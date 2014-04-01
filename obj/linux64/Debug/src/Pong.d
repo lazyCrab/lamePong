@@ -309,8 +309,8 @@ obj/linux64/Debug/src/Pong.o: src/Pong.cpp src/Pong.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/video/ofGstVideoPlayer.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofCamera.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h \
- include/PlayerPaddle.h include/Paddle.h include/KeyListener.h \
- include/KeyManager.h
+ include/PlayerPaddle.h include/Paddle.h include/Ball.h \
+ include/KeyListener.h include/KeyManager.h include/Ball.h
 
 src/Pong.h:
 
@@ -970,6 +970,10 @@ include/PlayerPaddle.h:
 
 include/Paddle.h:
 
+include/Ball.h:
+
 include/KeyListener.h:
 
 include/KeyManager.h:
+
+include/Ball.h:

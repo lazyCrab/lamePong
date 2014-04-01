@@ -4,6 +4,7 @@
 #include "Paddle.h"
 #include "KeyListener.h"
 #include <string>
+#include <set>
 
 using namespace std;
 
@@ -22,6 +23,8 @@ class PlayerPaddle : public Paddle, public KeyListener
         void update();
     private:
         string playerID;
+        bool isMoving = false;
+        set<string> pressed;
 };
 
 #endif

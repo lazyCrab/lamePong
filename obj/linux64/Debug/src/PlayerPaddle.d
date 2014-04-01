@@ -310,7 +310,7 @@ obj/linux64/Debug/src/PlayerPaddle.o: src/PlayerPaddle.cpp \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/video/ofGstVideoPlayer.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofCamera.h \
  ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h \
- include/KeyListener.h
+ include/Ball.h include/KeyListener.h
 
 include/PlayerPaddle.h:
 
@@ -967,5 +967,7 @@ include/Paddle.h:
 ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofCamera.h:
 
 ../../../Libraries/of_v0.8.0_linux64_release/libs/openFrameworks/3d/ofEasyCam.h:
+
+include/Ball.h:
 
 include/KeyListener.h:

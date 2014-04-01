@@ -2,6 +2,7 @@
 #define PADDLE_H
 
 #include "ofMain.h"
+#include "Ball.h"
 
 class Paddle
 {
@@ -16,9 +17,9 @@ class Paddle
 
         void moveX(float dX);
 
-        //TODO: add collide with ball
         bool collide(Paddle p);
         bool collide(ofRectangle rect);
+        bool collide(Ball b);
 
         virtual void update();
         void draw();
