@@ -17,7 +17,7 @@ void Pong::setup()
     km.addListener("PLAYER2_LEFT", pp2);
     km.addListener("PLAYER2_RIGHT", pp2);
 
-    b = Ball(ofPoint(240, 245));
+    b = Ball(ofPoint(490, 490));
     b.setVel(ofVec2f(2, 2));
 
     font.loadFont("verdana.ttf", 14, true, true);

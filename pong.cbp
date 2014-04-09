@@ -6,7 +6,7 @@
 		<Option makefile_is_custom="1" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="addons/;src/;build config/;" />
+		<Option virtualFolders="build config/addons/;build config/;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
@@ -27,7 +27,6 @@
 				<Option projectLinkerOptionsRelation="2" />
 			</Target>
 		</Build>
-		<Unit filename=".gitigonre" />
 		<Unit filename="config.make">
 			<Option virtualFolder="build config" />
 		</Unit>
@@ -36,19 +35,13 @@
 		<Unit filename="include/KeyManager.h" />
 		<Unit filename="include/Paddle.h" />
 		<Unit filename="include/PlayerPaddle.h" />
+		<Unit filename="include/Pong.h" />
 		<Unit filename="src/Ball.cpp" />
 		<Unit filename="src/KeyManager.cpp" />
 		<Unit filename="src/Paddle.cpp" />
 		<Unit filename="src/PlayerPaddle.cpp" />
-		<Unit filename="src/Pong.cpp">
-			<Option virtualFolder="src/" />
-		</Unit>
-		<Unit filename="src/Pong.h">
-			<Option virtualFolder="src/" />
-		</Unit>
-		<Unit filename="src/main.cpp">
-			<Option virtualFolder="src/" />
-		</Unit>
+		<Unit filename="src/Pong.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

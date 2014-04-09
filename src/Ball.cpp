@@ -18,8 +18,10 @@ Ball::~Ball()
 }
 
 
-//DIR:  1 up        -1 down
-//      2 right     -2 left
+//         DIR:
+//          1
+//     -2       2
+//         -1
 void Ball::bounce(int dir)
 {
     switch(dir)

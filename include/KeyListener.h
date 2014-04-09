@@ -5,6 +5,11 @@
 
 using namespace std;
 
+//
+//Yay! Apearantly I (kinda) used the Command pattern without even knowing it.
+//GJ Me!
+//
+
 class KeyListener
 {
     public:
